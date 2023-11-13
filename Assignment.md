@@ -47,3 +47,6 @@ Number in plain text.
                                     2. Hardcoding Issues - Part 1
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/89495635-995f-4d20-a3ea-aa5b01217267)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/53f307e6-2338-428f-9724-58a06e465d61)
+
