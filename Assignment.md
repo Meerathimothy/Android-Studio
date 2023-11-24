@@ -199,3 +199,41 @@ In order to get the value of this chk_pin we have to inspect the strings.XML fil
 adb shell am start -n jakhar.aseem.diva/.APICreds2Activity -a jakhar.aseem.diva.action.View_CREDS2 --ez check_pin false
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/edd2fb7a-201b-4d85-b0cb-948676a0644d)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/03ee2c8b-9f40-4bb7-8552-0cc999bfe5e3)
+
+                            11. ACCESS CONTROL ISSUES - PART 3
+                          
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/0316434e-d7ce-4b0d-b0e3-f910dbc88aac)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/b2bb4208-4100-42c7-8f2e-1982b8525b2c)
+                          
+Apparently we cannot access notes without pin. trying to access activity using content provider.
+
+adb shell content query --uri content://jakhar.aseem.diva.provider.notesprovider/notes/
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/5b58b21e-18c3-414c-8b71-ea1ebdc52590)
+
+                          12. HARDCODING ISSUES - PART 2
+                          
+Pull libdivajni.so file from VM using adb.
+
+adb pull /data/data/jakhar.aseem.diva/lib/libdivajni.so
+
+Use strings tool to get strings from libdivajni.so file.
+
+strings libdivajni.so
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/63e76653-6cf7-4873-a5ce-41962aaad42b)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/990e6ae6-b5b8-4fd0-b95b-748250876ce5)
+
+                                 13 INPUT VALIDATION ISSUES - PART 3
+                                 
+In this challenge goal is to crash the application
+
+Enter any random but long string, that string will lead to crash the application.
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/62d056f4-f897-4767-8632-fe4d02bd857d)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/81b82002-a288-4f19-ba75-2207808c2329)
