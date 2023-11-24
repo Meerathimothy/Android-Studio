@@ -18,7 +18,7 @@ Click on the DIVA app Icon to launch the application
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/11a8bc46-1156-4732-bf89-b4abf80a3840)
 
-                                                      1. Insecure Logging
+                                    1. Insecure Logging
 
 The mobile application logs sensitive data, including user actions, API responses  or error 
 messages, without proper security controls.This can lead to unintentional exposure of sensitive
@@ -60,11 +60,36 @@ d2j-dex2jar classes.dex
 
 A converted jar file with same name as dex file will appear in the folder
 
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/17515d6f-a868-47a1-99f3-4451e0cd8af1)
+
+Now access this JAR file with JD-GUI which is Java Decompiler,.
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/b837ade1-e3e8-4af5-8eba-ad4940cdfa72)
+
+Now we got the vendor’s secret key. Enter the Secret key to get access in app.
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/9440e0a8-5f01-4f5d-82ce-49514f471727)
+
+                           3.INSECURE DATA STORAGE - PART 1
+
+In order to complete this challenge we have to move around in Directories with the help of shell. But first review the source code of this activity. We can see that credentials are stored in Shared Preferences
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/fd518fc3-7d60-461d-aebf-471e5524c3a6)
+
+After accessing shell with adb go to /data/data/. This is the location where packages of all installed applications are stored.
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/f52dec21-e890-4368-9d78-faaa4195fbd8)
+
+First enter username and password and save them before try to find them in these directories.
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/a68dc1ee-7d05-4bc7-84ae-3dbb78430a9e)
+
+view contents of XML file to get username and password 
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/cec5cf51-8eca-4bd2-88e1-3690c83f9d31)
 
 
-
-
-                           INSECURE DATA STORAGE - PART 2
+                        4. INSECURE DATA STORAGE - PART 2
 
 This is similar challenge to previous one but credentials are stored in different location.
 
@@ -104,7 +129,7 @@ The credentials were stored in temporary file. We are accessing those temporary 
 
 Enter the credentials from application.
 
-![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/4f327723-0c80-4781-89668c0e6ef047fb)
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/9e3e72be-04d1-4212-9eb4-efad8ab0aeba)
 
 The app is storing credentials in external storage
 
@@ -157,5 +182,20 @@ First we have to de compile the application. We use APKTOOL for it.On Command Li
 
 apktool_2.4.1.jar d diva-beta.apk
 
+A folder of application name will be created in same directory of apk. From there open AndroidManifest.XML file
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/22902b8e-2023-44e5-8df5-a1c199e455ac)
+
+open the Java code file and inspect there about any new thing
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/2a88c6d9-8397-4b49-b94b-0eb3f0185583)
+
+Search this highlighted parameter in R.class
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/5f9961e3-4bd3-4835-aadd-778bb4bda315)
+
+In order to get the value of this chk_pin we have to inspect the strings.XML file which is located in application decompiled folder /res/values/string.xml.Let’s try to access the credentials with these details we have found and disabling check pin.
+
+adb shell am start -n jakhar.aseem.diva/.APICreds2Activity -a jakhar.aseem.diva.action.View_CREDS2 --ez check_pin false
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/edd2fb7a-201b-4d85-b0cb-948676a0644d)
