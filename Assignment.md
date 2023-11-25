@@ -282,4 +282,9 @@ All static analysis we will ave strin search. All features are written to Dicton
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/b8b41b34-b92a-4a8b-b33b-58839fa59500)
 
-![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/41956db1-5d35-479a-a445-afcac38989f2)
+![image](https://gitThen, it analyzes the log file offline and reports all the crypto misuseshub.com/Meerathimothy/Android-Studio/assets/57287429/41956db1-5d35-479a-a445-afcac38989f2)
+
+                                 DYNAMIC  ANALYSING TOOL - CRYLOGGER
+
+CRYLOGGER detects cryptographic (crypto) misuses in Android apps. A crypto misuse is an invocation to a crypto API that does not respect common security guidelines, such as those suggested by cryptographers or organizations.CRYLOGGER detects crypto misuses for you automatically, without requiring to analyze a single line of your code. First, CRYLOGGER runs your Android 
+app on the official Android Emulator.CRYLOGGER runs your app by using Monkey or the user-interface events you send to the emulator.
