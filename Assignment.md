@@ -243,3 +243,43 @@ Enter any random but long string, that string will lead to crash the application
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/3b546124-e9c6-4277-8818-c1b8c615a0b9)
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/79f5726c-954a-4a6c-95f9-361744fff85b)
+
+                              STATIC ANLYSIN TOOL - Androwarn
+
+  Androwarn is a tool whose main aim is to detect and warn the user about potential malicious behaviours developped by an Android application.
+
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/a3e47573-5bc4-4765-850f-e9bbebe37f29)
+
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/68b20652-4bec-4b60-9fa0-db8859a97678)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/b3373a95-5d09-45d5-8619-89d950933df5)
+
+Another Apktool used. The detection is performed with the static analysis of the application's Dalvik bytecode, represented as Smali, with the androguard library
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/41d34f88-8837-4626-8068-880d3443c1db)
+
+This analysis leads to the generation of a report, according to a technical detail level chosen from the user.
+
+Output can be generated in Plaintext txt , Formatted html from a Bootstrap template and JSON.
+
+Features of androwarn project is anlysed in warn/analysis/analysis.py
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/815e024e-11d5-418b-bd51-37e2e12b0697)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/b1abfd38-c1bb-4d99-904a-12f0bb48b7b8)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/8ce877fd-aa9b-4142-bb1b-93fe8d178a6d)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/6439036e-78de-45b8-aa36-c31ef52b2635)
+
+simillarly for all other features.
+
+All static analysis we will ave strin search. All features are written to Dictonary.Finally this dictionary given output format.
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/9a76ebc3-b864-4ffe-92ad-8f636d882d19)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/b8b41b34-b92a-4a8b-b33b-58839fa59500)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/41956db1-5d35-479a-a445-afcac38989f2)
