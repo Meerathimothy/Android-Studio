@@ -1,6 +1,6 @@
 
                                   DIVA Android App 
-
+                                  
 adb devices - command will show us status of any android device running on our system or not.
 
 As VM which we started earlier is running, now it’s time to install DIVA application. Run command
