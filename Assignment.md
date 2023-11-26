@@ -274,15 +274,21 @@ Features of androwarn project is anlysed in warn/analysis/analysis.py
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/6439036e-78de-45b8-aa36-c31ef52b2635)
 
-simillarly for all other features.
+Simillarly for all other features.
 
-All static analysis we will ave strin search. All features are written to Dictonary.Finally this dictionary given output format.
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/3f7542a7-7170-44b5-af96-5ea71efe6eba)
 
-![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/9a76ebc3-b864-4ffe-92ad-8f636d882d19)
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/937aa3bb-9124-46fa-bb10-ca369e99487a)
 
-![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/b8b41b34-b92a-4a8b-b33b-58839fa59500)
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/c9d001ce-13a7-4c74-96a3-53673d1c06cb)
 
-![image](https://gitThen, it analyzes the log file offline and reports all the crypto misuseshub.com/Meerathimothy/Android-Studio/assets/57287429/41956db1-5d35-479a-a445-afcac38989f2)
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/6aad50fa-653a-4d1e-8b8e-e1af899383e9)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/cfcf7326-f294-4362-8e67-72e8a6fb36d5)
+
+All static analysis we will Have string search. All features are written to Dictonary.Finally this dictionary given output format.
+
+Then, it analyzes the log file offline and reports all the crypto misuseshub.com/Meerathimothy/Android-Studio/assets/57287429/41956db1-5d35-479a-a445-afcac38989f2)
 
                                  DYNAMIC  ANALYSING TOOL - CRYLOGGER
 
