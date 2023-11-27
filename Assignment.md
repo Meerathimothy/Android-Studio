@@ -141,7 +141,7 @@ Try to enter single quote twice (‘’) and then check result.
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/479ae7ff-9d40-4f1c-8cd4-e708c90c814b)
 
-                            8. INPUT VALIDATION ISSUES - PART 2
+                           8. INPUT VALIDATION ISSUES - PART 2
 
 In this challenge we have to access local files using URL.First let’s try to access Google
 
@@ -202,7 +202,7 @@ adb shell am start -n jakhar.aseem.diva/.APICreds2Activity -a jakhar.aseem.diva.
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/03ee2c8b-9f40-4bb7-8552-0cc999bfe5e3)
 
-                            11. ACCESS CONTROL ISSUES - PART 3
+                        11. ACCESS CONTROL ISSUES - PART 3
                           
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/0316434e-d7ce-4b0d-b0e3-f910dbc88aac)
 
@@ -214,7 +214,7 @@ adb shell content query --uri content://jakhar.aseem.diva.provider.notesprovider
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/5b58b21e-18c3-414c-8b71-ea1ebdc52590)
 
-                          12. HARDCODING ISSUES - PART 2
+                      12. HARDCODING ISSUES - PART 2
                           
 Pull libdivajni.so file from VM using adb.
 
@@ -228,7 +228,7 @@ strings libdivajni.so
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/990e6ae6-b5b8-4fd0-b95b-748250876ce5)
 
-                                 13 INPUT VALIDATION ISSUES - PART 3
+                              13 INPUT VALIDATION ISSUES - PART 3
                                  
 In this challenge goal is to crash the application
 
@@ -238,13 +238,34 @@ Enter any random but long string, that string will lead to crash the application
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/81b82002-a288-4f19-ba75-2207808c2329)
 
+
+                     MOBSF
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/24d8f961-71e4-406f-9c97-70409fe22f09)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/a8ab6dff-ce45-4168-ac9b-a764f9f30bcd)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/bb89e4a2-0046-4aa4-84e4-5c253cea26ba)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/baaa1e41-5f94-444a-82df-d1ef041d78b2)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/b684a93b-7097-44a5-b9aa-181fa68ba3c3)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/8f3678ff-c7bc-4596-ac23-b5d38a5ca04c)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/97c1cd4e-ad3b-4d18-ab92-f7a27b3d61a3)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/56402e22-4f49-4fdb-9b86-f007de252aa5)
+
+
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/92a6f672-14ae-46a1-9462-2dc8b64d31bf)
+
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/3b546124-e9c6-4277-8818-c1b8c615a0b9)
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/79f5726c-954a-4a6c-95f9-361744fff85b)
-
-                              STATIC ANLYSIN TOOL - Androwarn
+                         
+                          STATIC ANLYSIN TOOL - Androwarn
 
   Androwarn is a tool whose main aim is to detect and warn the user about potential malicious behaviours developped by an Android application.
 
