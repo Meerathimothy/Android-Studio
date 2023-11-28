@@ -313,9 +313,24 @@ Simillarly for all other features.
 
 All static analysis we will Have string search. All features are written to Dictonary.Finally this dictionary given output format.
 
-Then, it analyzes the log file offline and reports all the crypto misuseshub.com/Meerathimothy/Android-Studio/assets/57287429/41956db1-5d35-479a-a445-afcac38989f2)
+Then, it analyzes the log file offline and reports all the crypto misuses
+
+![image](https://githubhub.com/Meerathimothy/Android-Studio/assets/57287429/41956db1-5d35-479a-a445-afcac38989f2)
 
                                  DYNAMIC  ANALYSING TOOL - CRYLOGGER
 
-CRYLOGGER detects cryptographic (crypto) misuses in Android apps. A crypto misuse is an invocation to a crypto API that does not respect common security guidelines, such as those suggested by cryptographers or organizations.CRYLOGGER detects crypto misuses for you automatically, without requiring to analyze a single line of your code. First, CRYLOGGER runs your Android 
-app on the official Android Emulator.CRYLOGGER runs your app by using Monkey or the user-interface events you send to the emulator.
+CRYLOGGER detects cryptographic (crypto) misuses in Android apps. A crypto misuse is an invocation to a crypto API that does not respect common security guidelines, such as those suggested by cryptographers or organizations.CRYLOGGER detects crypto misuses for you automatically, without requiring to analyze a single line of your code. First, CRYLOGGER runs your Android app on the official Android Emulator.CRYLOGGER runs your app by using Monkey or the user-interface events you send to the emulator.
+
+adb shell monkey -p your.package.name -v 500
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/4fec2b08-ba81-4b6b-a787-b075022afb72)
+
+
+For ex, as shown above frameworks and libcore can be changed accordingly to create a new android distribution and to have our emulator a different logging functionality.Likewise many changing logging functionality of the open source android OS and making it their own Android distributions
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/eff555ca-1616-4391-9b64-dc14f1ff018a)
+
+It will make logs and specifies the analysis made upon cryptographic functionalities of the application.
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/a92414f4-00f7-48f0-9938-023e94020475)
+
+Above is the repositories that contains source codes of the released android versions and by changing the logging functionality of the desired version of android, new distribution is created on our own.
