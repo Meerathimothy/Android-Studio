@@ -3,6 +3,7 @@
                                        Android Security
                                                                         Meera E Thimothy
                                                                         CB.EN.P2CYS22002
+                                  
                                   DIVA Android App 
                                   
 adb devices - command will show us status of any android device running on our system or not.
