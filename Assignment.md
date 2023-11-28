@@ -42,8 +42,8 @@ Now go to the Android Studio and there enter credit card number
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/b3b543f0-73bb-48ec-90d3-797a5ff7e317)
 
-
 Now go back the the command line where logs are appearing you will find there Credit Card 
+
 Number in plain text.
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/8f8f7a1d-f691-4f0c-a611-6197760fb3f2)
