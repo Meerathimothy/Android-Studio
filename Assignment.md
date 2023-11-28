@@ -243,6 +243,38 @@ Enter any random but long string, that string will lead to crash the application
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/81b82002-a288-4f19-ba75-2207808c2329)
 
 
+                       Keystore
+we use keytool to generate keystore
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/7b826d99-cd0e-47b8-a904-e1b654c78893)
+
+Now we sign the app using jarsigner
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/8702ce21-372d-4e79-8f19-68d0d3b1f57d)
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/1138e70f-d79f-4c38-95a9-23faa2a40157)
+
+
+Now we verify the signature of the application using uber-apk-signer
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/268fb1bb-fbe6-4e00-9992-f76da8d1f282)
+ 
+Decompiling the application using apktool
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/9043808d-87b1-43bc-bc8c-d3aac2912c6d)
+
+Now building a new apk with the decompiled tool
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/aab21325-5b71-496d-9e30-ac85fde4cc9f)
+
+Verifying the signature of the builded apk with uber-apk-signer
+ 
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/a64e0466-d451-48de-9308-8aad8a79a06c)
+
+We can enter the keystore file and generate keystore in GUI
+
+![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/4e730807-bd7c-407b-90be-8eaeefd08dbc)
+
                      MOBSF
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/24d8f961-71e4-406f-9c97-70409fe22f09)
@@ -261,6 +293,8 @@ Enter any random but long string, that string will lead to crash the application
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/56402e22-4f49-4fdb-9b86-f007de252aa5)
 
+
+                Frida Installation
 
 ![image](https://github.com/Meerathimothy/Android-Studio/assets/57287429/92a6f672-14ae-46a1-9462-2dc8b64d31bf)
 
